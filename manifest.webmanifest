@@ -1,0 +1,9 @@
+{
+  "name": "Edge15 Money Tools",
+  "short_name": "Edge15 v14",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b12",
+  "theme_color": "#080b12",
+  "icons": []
+}
