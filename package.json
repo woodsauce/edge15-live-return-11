@@ -1,0 +1,21 @@
+{
+  "name": "edge15-genesis-hybrid-16",
+  "version": "16.0.0",
+  "description": "BTC 15-minute assistant with Genesis-style 6m money gate, lock readiness, tracker alerts, strict EV, and official lock clarity.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "npx serve .",
+    "vercel-build": "echo 'Static app + Vercel functions: no build step required'"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "coinbase",
+    "bitcoin",
+    "prediction-market",
+    "vercel"
+  ],
+  "license": "UNLICENSED"
+}
