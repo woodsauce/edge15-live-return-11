@@ -1,0 +1,9 @@
+{
+  "name": "Edge15 Genesis Hybrid 23",
+  "short_name": "Edge15 v24",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b12",
+  "theme_color": "#080b12",
+  "icons": []
+}
