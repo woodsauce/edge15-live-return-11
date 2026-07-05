@@ -1,0 +1,9 @@
+{
+  "name": "Edge15 Genesis Elite 27 Genesis-020 Calibrated",
+  "short_name": "Edge15 v27",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b12",
+  "theme_color": "#080b12",
+  "icons": []
+}
