@@ -1,0 +1,44 @@
+{
+  "release": "Genesis-027-Restore-Elite-003",
+  "mode": "accuracy_first_fast_entry",
+  "objective": "Return to 90%+ prediction range by reducing marginal trades, disabling losing lock types, replacing fixed win probability with calibrated probability, and keeping money/profit score visual-only.",
+  "rules": {
+    "disableMoneyLockTypes": ["10m genesis elite lock"],
+    "watchOnlyLockTypes": ["late proof lock · no-entry"],
+    "strictLockTypes": ["6m genesis money lock", "8m genesis early lock"],
+    "bestLockType": "genesis emergency money lock",
+    "decisionTiming": {
+      "goal": "make the valid decision as soon as accuracy guardrails pass",
+      "doNotWaitForBetterPayout": true,
+      "doNotBlockForLowProfit": true,
+      "doNotBlockForExpensiveOdds": true
+    },
+    "minStability": 80,
+    "maxFlipRisk": { "OVER": 38, "UNDER": 40 },
+    "minChartScore": { "OVER": 72, "UNDER": 68 },
+    "minSuccessChance": { "OVER": 72, "UNDER": 70 },
+    "minEntryQuality": 82,
+    "allowedCushionTiers": ["strong"],
+    "usableCushionPolicy": "watch_only_unless_emergency",
+    "overBiasGuard": true,
+    "fixedWinProbability96_5": "disabled",
+    "maxOddsAgeSec": 20,
+    "antiRegressionGate": {
+      "minRecentTradeSample": 20,
+      "requiredTradeWinRate": 90,
+      "blockDeployIfWinRateDropsMoreThanPoints": 3
+    },
+    "moneyScorePolicy": "visual_only_never_blocks_trade",
+    "profitPolicy": "any_positive_profit_is_acceptable_if_accuracy_guardrails_pass"
+  },
+  "displayChanges": {
+    "previewCanMove": true,
+    "officialLockCannotFlipUnlessInvalidated": true,
+    "showSkipReason": true,
+    "showCalibratedProbability": true,
+    "showMoneyScore": "visual_only",
+    "showProfit": "visual_only",
+    "showPayout": "visual_only",
+    "showEliteStatus": ["ELITE_READY", "ELITE_EMERGENCY", "WATCH_ONLY", "SKIP"]
+  }
+}
