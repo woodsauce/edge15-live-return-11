@@ -1,0 +1,21 @@
+{
+  "name": "edge15-genesis-elite-25",
+  "version": "25.0.0",
+  "description": "BTC 15-minute assistant with Genesis-027-style elite regression guardrails, visual-only money score, stricter official locks, and tighter early scout.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "npx serve .",
+    "vercel-build": "echo 'Static app + Vercel functions: no build step required'"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "coinbase",
+    "bitcoin",
+    "prediction-market",
+    "vercel"
+  ],
+  "license": "UNLICENSED"
+}
