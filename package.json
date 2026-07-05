@@ -1,9 +1,0 @@
-{
-  "name": "edge15-elite-v3-package",
-  "version": "0.3.0",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "test:regression": "node test/sample-regression-runner.mjs"
-  }
-}
