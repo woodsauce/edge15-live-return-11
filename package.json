@@ -1,0 +1,22 @@
+{
+  "name": "edge15-genesis-core-v30-private-daily-use",
+  "version": "37.0.0",
+  "description": "Private simplified Core V30 BTC 15-minute assistant with 6m read, late catch, QR header, display-only money, and isolated local tracking.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "npx serve .",
+    "vercel-build": "echo 'Static app + Vercel functions: no build step required'"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "coinbase",
+    "bitcoin",
+    "prediction-market",
+    "vercel",
+    "private-app"
+  ],
+  "license": "UNLICENSED"
+}
