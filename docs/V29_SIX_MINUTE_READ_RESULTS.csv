@@ -1,0 +1,4 @@
+dataset,native_wins,native_losses,native_taken,v29_proxy_wins,v29_proxy_losses,v29_proxy_taken,v29_proxy_accuracy
+Genesis-019,216,22,238,202,22,224,90.2
+Genesis-020,214,22,236,201,22,223,90.1
+Genesis-027,179,14,193,177,16,193,91.7

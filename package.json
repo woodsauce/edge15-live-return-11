@@ -1,0 +1,21 @@
+{
+  "name": "edge15-genesis-balanced-29-six-minute-read",
+  "version": "29.0.0",
+  "description": "BTC 15-minute assistant with Genesis Balanced defaults, a 6-minute read lock, late second-chance lock, visual-only money score, and scout-only early locks.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "npx serve .",
+    "vercel-build": "echo 'Static app + Vercel functions: no build step required'"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "coinbase",
+    "bitcoin",
+    "prediction-market",
+    "vercel"
+  ],
+  "license": "UNLICENSED"
+}
