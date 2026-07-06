@@ -1,0 +1,5 @@
+rule_set,windows,taken,wins,losses,skips,accuracy,trade_rate
+Native old models,1267,667,609,58,600,91.3,52.6
+V31 active proxy,1267,763,686,77,504,89.9,60.2
+V32 regime proxy,1267,734,663,71,533,90.3,57.9
+V33 pro trader proxy,1267,708,641,67,559,90.5,55.9
