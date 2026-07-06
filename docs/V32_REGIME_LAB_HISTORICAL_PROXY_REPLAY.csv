@@ -1,5 +1,0 @@
-dataset,windows,native_wins,native_losses,native_taken,native_skips,v31_wins,v31_losses,v31_taken,v31_skips,v32_wins,v32_losses,v32_taken,v32_skips,native_accuracy,native_trade_rate,v31_accuracy,v31_trade_rate,v32_accuracy,v32_trade_rate
-Genesis-019,453,216,22,238,215,248,28,276,177,247,28,275,178,90.8,52.5,89.9,60.9,89.8,60.7
-Genesis-020,450,214,22,236,214,246,28,274,176,245,28,273,177,90.7,52.4,89.8,60.9,89.7,60.7
-Genesis-027,364,179,14,193,171,203,19,222,142,202,19,221,143,92.7,53.0,91.4,61.0,91.4,60.7
-Pooled,1267,609,58,667,600,697,75,772,495,694,75,769,498,91.3,52.6,90.3,60.9,90.2,60.7
