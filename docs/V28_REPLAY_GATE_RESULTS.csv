@@ -1,0 +1,17 @@
+rule,release,taken,wins,losses,skips,accuracy
+Native model behavior,Genesis-019,238,216,22,215,90.8
+Native model behavior,Genesis-020,236,214,22,214,90.7
+Native model behavior,Genesis-027,193,179,14,171,92.7
+Native model behavior,ALL,667,609,58,600,91.3
+V27 Sniper proxy,Genesis-019,194,178,16,259,91.8
+V27 Sniper proxy,Genesis-020,193,177,16,257,91.7
+V27 Sniper proxy,Genesis-027,152,141,11,212,92.8
+V27 Sniper proxy,ALL,539,496,43,728,92.0
+V28 Genesis Balanced default,Genesis-019,222,200,22,231,90.1
+V28 Genesis Balanced default,Genesis-020,221,199,22,229,90.0
+V28 Genesis Balanced default,Genesis-027,191,177,14,173,92.7
+V28 Genesis Balanced default,ALL,634,576,58,633,90.9
+V28 Action candidate (not default),Genesis-019,230,206,24,223,89.6
+V28 Action candidate (not default),Genesis-020,229,205,24,221,89.5
+V28 Action candidate (not default),Genesis-027,196,182,14,168,92.9
+V28 Action candidate (not default),ALL,655,593,62,612,90.5
