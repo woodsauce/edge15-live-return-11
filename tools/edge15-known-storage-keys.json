@@ -1,0 +1,14 @@
+{
+  "source": "Genesis-027 export storageKeys",
+  "keys": {
+    "commitmentAccuracy": "edge15.commitmentAccuracy.v3.replay",
+    "signalPlan": "edge15.signalPlan.v2.commitment",
+    "tradeJournal": "edge15.tradeJournal.v1",
+    "engineAverages": "edge15.engineAverages.v1",
+    "qualityFilter": "edge15.tradeQualityFilter.v1",
+    "commitTimingLab": "edge15.commitTimingLab.v1",
+    "versionLab": "edge15.versionLab.v1",
+    "strategyProfileLab": "edge15.strategyProfileLab.v1",
+    "adaptiveCommitLab": "edge15.adaptiveCommitLab.v1"
+  }
+}
