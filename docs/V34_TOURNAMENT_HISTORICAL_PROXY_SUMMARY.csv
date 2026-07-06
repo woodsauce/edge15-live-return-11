@@ -1,0 +1,11 @@
+modelId,label,windows,taken,wins,losses,skips,accuracy,tradeRate
+trend_continuation,Trend Follow,1267,436,404,32,831,92.7,34.4
+v33_pro,V33 Pro Trader,1267,680,618,62,587,90.9,53.7
+odds_pressure,Odds Pressure,1267,675,612,63,592,90.7,53.3
+core_v30,Core V30,1267,567,514,53,700,90.7,44.8
+v32_regime,V32 Regime,1267,727,658,69,540,90.5,57.4
+late_catch,Late Catch,1267,762,685,77,505,89.9,60.1
+v31_active,V31 Active,1267,760,683,77,507,89.9,60.0
+meta_judge,Meta Judge,1267,746,671,75,521,89.9,58.9
+six_minute_commit,6m Commit,1267,744,669,75,523,89.9,58.7
+snapback_reversal,Snapback Guard,1267,290,249,41,977,85.9,22.9
